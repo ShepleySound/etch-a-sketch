@@ -64,7 +64,7 @@ function gridDisplaySwitch(switchOn){
         return switchOn = false;
     }
     else if (!switchOn){
-        document.styleSheets[0].insertRule('.grid {border: 0px solid grey}', 0)
+        document.styleSheets[0].insertRule('.grid {border: 1px solid grey}', 0)
         gridButton.textContent = "Grid: ON"
         return switchOn = true;
     }
